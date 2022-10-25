@@ -2,7 +2,7 @@
 ### What is this designed for
 BitLocker Remote Unlock is designed as a simplistic replacement for BitLocker Network Unlock, allowing for the automatic unlocking of BitLocker volumes utilizing keys stored on a remote host.
 ### Limitations
-This script will be unable to unlock the Windows volume as the script runs after the system has successfully booted. Therefore it is recommended to store all data that needs to be encrypted on other volumes and use BitLocker encryption stored on TPM if possible.
+This script will be unable to unlock the Windows volume as the script runs after the system has successfully booted. Therefore it is recommended to store all data that needs to be encrypted on other volumes and use BitLocker encryption stored on TPM if possible for the C drive.
 ### Use Case
 Automatically unlock volumes used to store VHDs for Virtual Machines on a server at a remote branch. For the unlock to occur, the script at the remote branch must connect to a server at HQ to get the required BitLocker keys.
 ### Security Implications

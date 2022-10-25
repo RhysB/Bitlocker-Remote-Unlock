@@ -1,4 +1,4 @@
-# Bitlocker-Remote-Unlock-SMB
+# Bitlocker-Remote-Unlock
 ### What is this designed for
 BitLocker Remote Unlock is designed as a simplistic replacement for BitLocker Network Unlock, allowing for the automatic unlocking of BitLocker volumes utilizing keys stored on a remote host.
 ### Limitations
